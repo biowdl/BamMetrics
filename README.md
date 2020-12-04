@@ -4,7 +4,7 @@ workflow usable for collecting various metrics for BAM files.
 
 ## Documentation
 Documentation for this workflow can be
-found [here](https://biowdl.github.io/bammetrics/).
+found [here](https://biowdl.github.io/BamMetrics/).
 
 ## About
 This workflow is part of [Biowdl](https://github.com/biowdl) developed by the

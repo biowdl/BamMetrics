@@ -78,7 +78,7 @@ BamMetrics.
 </dd>
 <dt id="BamMetrics.ampliconIntervalsLists.memory"><a href="#BamMetrics.ampliconIntervalsLists.memory">BamMetrics.ampliconIntervalsLists.memory</a></dt>
 <dd>
-    <i>String </i><i>&mdash; Default:</i> <code>"4G"</code><br />
+    <i>String </i><i>&mdash; Default:</i> <code>"4GiB"</code><br />
     The amount of memory this job will use.
 </dd>
 <dt id="BamMetrics.ampliconIntervalsLists.timeMinutes"><a href="#BamMetrics.ampliconIntervalsLists.timeMinutes">BamMetrics.ampliconIntervalsLists.timeMinutes</a></dt>
@@ -98,7 +98,7 @@ BamMetrics.
 </dd>
 <dt id="BamMetrics.Flagstat.memory"><a href="#BamMetrics.Flagstat.memory">BamMetrics.Flagstat.memory</a></dt>
 <dd>
-    <i>String </i><i>&mdash; Default:</i> <code>"256M"</code><br />
+    <i>String </i><i>&mdash; Default:</i> <code>"256MiB"</code><br />
     The amount of memory needed for the job.
 </dd>
 <dt id="BamMetrics.Flagstat.timeMinutes"><a href="#BamMetrics.Flagstat.timeMinutes">BamMetrics.Flagstat.timeMinutes</a></dt>
@@ -153,7 +153,7 @@ BamMetrics.
 </dd>
 <dt id="BamMetrics.picardMetrics.timeMinutes"><a href="#BamMetrics.picardMetrics.timeMinutes">BamMetrics.picardMetrics.timeMinutes</a></dt>
 <dd>
-    <i>Int </i><i>&mdash; Default:</i> <code>1 + ceil((size(referenceFasta,"G") * 3 * 2)) + ceil((size(inputBam,"G") * 6))</code><br />
+    <i>Int </i><i>&mdash; Default:</i> <code>1 + ceil((size(referenceFasta,"GiB") * 3 * 2)) + ceil((size(inputBam,"GiB") * 6))</code><br />
     The maximum amount of time the job will run in minutes.
 </dd>
 <dt id="BamMetrics.rnaSeqMetrics.javaXmx"><a href="#BamMetrics.rnaSeqMetrics.javaXmx">BamMetrics.rnaSeqMetrics.javaXmx</a></dt>
@@ -163,12 +163,12 @@ BamMetrics.
 </dd>
 <dt id="BamMetrics.rnaSeqMetrics.memory"><a href="#BamMetrics.rnaSeqMetrics.memory">BamMetrics.rnaSeqMetrics.memory</a></dt>
 <dd>
-    <i>String </i><i>&mdash; Default:</i> <code>"9G"</code><br />
+    <i>String </i><i>&mdash; Default:</i> <code>"9GiB"</code><br />
     The amount of memory this job will use.
 </dd>
 <dt id="BamMetrics.rnaSeqMetrics.timeMinutes"><a href="#BamMetrics.rnaSeqMetrics.timeMinutes">BamMetrics.rnaSeqMetrics.timeMinutes</a></dt>
 <dd>
-    <i>Int </i><i>&mdash; Default:</i> <code>1 + ceil((size(inputBam,"G") * 12))</code><br />
+    <i>Int </i><i>&mdash; Default:</i> <code>1 + ceil((size(inputBam,"GiB") * 12))</code><br />
     The maximum amount of time the job will run in minutes.
 </dd>
 <dt id="BamMetrics.targetIntervalsLists.javaXmx"><a href="#BamMetrics.targetIntervalsLists.javaXmx">BamMetrics.targetIntervalsLists.javaXmx</a></dt>
@@ -178,7 +178,7 @@ BamMetrics.
 </dd>
 <dt id="BamMetrics.targetIntervalsLists.memory"><a href="#BamMetrics.targetIntervalsLists.memory">BamMetrics.targetIntervalsLists.memory</a></dt>
 <dd>
-    <i>String </i><i>&mdash; Default:</i> <code>"4G"</code><br />
+    <i>String </i><i>&mdash; Default:</i> <code>"4GiB"</code><br />
     The amount of memory this job will use.
 </dd>
 <dt id="BamMetrics.targetIntervalsLists.timeMinutes"><a href="#BamMetrics.targetIntervalsLists.timeMinutes">BamMetrics.targetIntervalsLists.timeMinutes</a></dt>
@@ -193,12 +193,12 @@ BamMetrics.
 </dd>
 <dt id="BamMetrics.targetMetrics.memory"><a href="#BamMetrics.targetMetrics.memory">BamMetrics.targetMetrics.memory</a></dt>
 <dd>
-    <i>String </i><i>&mdash; Default:</i> <code>"4G"</code><br />
+    <i>String </i><i>&mdash; Default:</i> <code>"4GiB"</code><br />
     The amount of memory this job will use.
 </dd>
 <dt id="BamMetrics.targetMetrics.timeMinutes"><a href="#BamMetrics.targetMetrics.timeMinutes">BamMetrics.targetMetrics.timeMinutes</a></dt>
 <dd>
-    <i>Int </i><i>&mdash; Default:</i> <code>1 + ceil((size(inputBam,"G") * 6))</code><br />
+    <i>Int </i><i>&mdash; Default:</i> <code>1 + ceil((size(inputBam,"GiB") * 6))</code><br />
     The maximum amount of time the job will run in minutes.
 </dd>
 </dl>
